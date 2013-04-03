@@ -1,0 +1,129 @@
+
+/*Main grey div*/
+.footer {
+	width: 100%;
+	height:350px;
+	background-color: rgb(84,83,81);
+	margin:0 auto;
+	padding:0px 5%;
+}
+
+/*Three column styles*/
+.collone{
+	width:35%;
+	height: 100%;
+	float: left;
+	padding-right: 5%;
+}
+
+.colltwo {
+	width:20%;
+	height: 100%;
+	float: left;
+	padding-right: 100px;
+}
+
+.collthree {
+	width:20%;
+	height: 100%;
+	float: left;
+}
+
+
+/*Button styles*/
+.button {
+	width: 35%;
+	background-color: rgb(95,95,95);
+	border:1px solid rgba(45,45,45,.4);
+	border-radius:4px;
+	text-align: center;
+	padding: 10.5px 6.5px;
+	font-size: 13px;
+	box-shadow: inset 0 1px 0px rgba(255,255,255,.4);
+	margin: 0 10.5px 11px 10.5px;
+	float: left;
+}
+
+.button:hover{
+	background-color: rgb(95,100,105);
+}
+
+.gradientbutton {
+	width: 100%;
+	background: linear-gradient(to bottom, #7ce0fc 0%,#24b3e7 100%);
+	padding: 18px 0 13px 0;
+	margin-top: 22px;
+	margin-bottom: -2px;
+	text-align: center;
+	text-shadow:0 1px 2px #077fa0;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0px rgba(255,255,255,.9),
+					  0 2px 3px rgba(0,0,0,.2);
+}
+
+.gradientbutton:hover {
+	background: linear-gradient(to bottom, #24b3e7 0%,#077fa0 100%);
+}
+
+.collthree .button{
+	width:70%;
+	margin-left:0px;
+}
+
+/*email button input styles*/
+.email {
+	width: 90%;
+	font-size: 13px;
+	padding:15px 12px;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border:none;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.5);
+}
+
+input[type=email], textarea {
+  outline: none;
+}
+ 
+input[type=email]:focus, textarea:focus {
+	box-shadow: inset 0 3px 6px rgba(0,0,0,.35);
+	color: #24b3e7;
+}
+
+/*type and paragraph styles*/
+body {
+	color: rgb(253,253,253);
+	text-shadow:0 1px 1px rgba(0,0,0,1);
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding-top: 9px;
+	margin-bottom: 14px;
+}
+
+.collone h1{
+	margin-left: 12px;
+}
+
+h2 {
+	font-size: 13px;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+p {
+	font-size: 12px;
+	line-height: 1.3;
+}
+
+hr {
+	width:100%;
+	border-color:rgba(55,55,55,.1);
+	margin: 8px 0;
+	margin-bottom: 14px;
+}
+
