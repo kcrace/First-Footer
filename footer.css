@@ -1,7 +1,7 @@
 
 /*Main grey div*/
 .footer {
-	width: 85%;
+	width: 1000px;
 	height:350px;
 	background-color: rgb(84,83,81);
 	margin:0 auto;
@@ -23,7 +23,7 @@
 }
 
 .collthree {
-	width:20%;
+	width:25%;
 	height: 100%;
 	float: left;
 }
