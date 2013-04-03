@@ -1,11 +1,11 @@
 
 /*Main grey div*/
 .footer {
-	width: 100%;
+	width: 85%;
 	height:350px;
 	background-color: rgb(84,83,81);
 	margin:0 auto;
-	padding:0px 5%;
+	padding:2% 5%;
 }
 
 /*Three column styles*/
@@ -17,8 +17,7 @@
 }
 
 .colltwo {
-	width:20%;
-	height: 100%;
+	width:25%;
 	float: left;
 	padding-right: 100px;
 }
@@ -48,6 +47,14 @@
 	background-color: rgb(95,100,105);
 }
 
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
 .gradientbutton {
 	width: 100%;
 	background: linear-gradient(to bottom, #7ce0fc 0%,#24b3e7 100%);
@@ -68,6 +75,7 @@
 .collthree .button{
 	width:70%;
 	margin-left:0px;
+	margin-bottom: 41px;
 }
 
 /*email button input styles*/
