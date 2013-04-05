@@ -35,7 +35,7 @@
 	position:relative;
 	width: 42px;
    	height: 42px;
-   	background: url(http://dribbble.s3.amazonaws.com/users/246161/avatars/original/photo_copy_2.JPG?1359130351) no-repeat;
+   	background: url('http://dribbble.s3.amazonaws.com/users/246161/avatars/original/photo_copy_2.JPG?1359130351') no-repeat;
    	background-size: 47px;
    	background-position: center;
    	border-radius: 21px;
@@ -66,10 +66,9 @@
 }
 
 .concert-title {
-	width:200px;
-	margin: 0px 0px 0px 191px;
+	width:400px;
+	margin: 0px 0px 0px 208px;
 	display:inline-block;
-	text-align: center;
 }
 
 .links {
@@ -85,7 +84,26 @@
 	height: 428px;
 	position: relative;
 	background: #F1F0EC;
+	padding-top: 20px;
 	border-bottom: 2px solid rgba(208, 205, 200, .7); 
+}
+
+.concert-image {
+	height: 363px;
+	width: 465px;
+	display: inline-block;
+	background: url('http://1.bp.blogspot.com/-4rjXxHJpEQA/UDw0XBo-WdI/AAAAAAAAFPo/1gykbDS7mqg/s1600/taylorconcert.jpg') no-repeat;
+	margin: 0px 0px 0px 208px;
+	position: relative;
+}
+
+.image-info{
+	width: 465px;
+	height: 63px;
+	display: inline-block;
+	background-color: #D0CDC8;
+	position: absolute;
+	bottom: 0;
 }
 
 /*Main grey footer div*/
@@ -95,7 +113,7 @@
 	background-color: rgb(84,83,81);
 	margin:0 auto;
 	padding:2% 5%;
-	position:fixed;
+	position:relative;
 	bottom:0;
 }
 
