@@ -11,6 +11,7 @@
 	position: fixed;
 	top: 0;
 	background: #3B3B3B;
+	z-index: 100;
 }
 
 .navbar-title {
@@ -53,7 +54,41 @@
 
 }
 
-/*Main grey div*/
+/*White bar div content*/
+.white-bar {
+	width: 1126px;
+	height: 64px;
+	position: relative;
+	background: white;
+	margin-top: 47px;
+	padding-top: 6px;
+	border-bottom: 2px solid rgba(208, 205, 200, .7); 
+}
+
+.concert-title {
+	width:200px;
+	margin: 0px 0px 0px 191px;
+	display:inline-block;
+	text-align: center;
+}
+
+.links {
+	width:200px;
+	display:inline-block;
+	margin: 0px 0px 0px 291px;
+	vertical-align: middle;
+}
+
+/*grey div content*/
+.grey-background {
+	width: 1126px;
+	height: 428px;
+	position: relative;
+	background: #F1F0EC;
+	border-bottom: 2px solid rgba(208, 205, 200, .7); 
+}
+
+/*Main grey footer div*/
 .footer {
 	width: 1126px;
 	height:300px;
@@ -160,6 +195,13 @@ body {
 	text-shadow:0 1px 1px rgba(0,0,0,1);
 	font-family: Helvetica, sans-serif;
 	font-weight: 300;
+}
+
+h1 {
+	font-size: 26px;
+	margin: 10px 0;
+	font-weight: 100;
+	color: black;
 }
 
 h3 {
